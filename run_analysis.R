@@ -1,3 +1,4 @@
+library(dplyr)
 SamsungTestDataSet <- read.table(".X_test.txt",  header=FALSE)
 SamsungTestActivity <- read.table("./y_test.txt", header=FALSE)
 SamsungTrainDataSet <- read.table("./X_train.txt",  header=FALSE)
