@@ -1,4 +1,4 @@
-# Cookbook for Course 3 Week 4 Homework assignment
+# Getting and Cleaning Data Course Project Cookbook
 
 #Original data 
 
