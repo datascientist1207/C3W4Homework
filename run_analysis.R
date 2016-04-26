@@ -24,5 +24,5 @@ SamsungFilteredDataFrame <- SamsungCombinedDataFrame[ , grepl("Activity|Subject_
 
 #summarizing the mean for each activity and subject
 SamsungDatabyActivity <-  summarize_each(group_by(SamsungFilteredDataFrame,Activity,Subject_ID),funs(mean))
-write.table(SamsungDatabyActivity, file="./tidy-data-output.txt", append=FALSE)
+write.table(SamsungDatabyActivity, file="./tidy-data-output.txt", append=FALSE, row.names=FALSE)
 
